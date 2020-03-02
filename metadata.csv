@@ -1,0 +1,44 @@
+"","ID","Var.ro","X1","X2","Var","Label","Group","Type","Role","Levels","New.levels","Min","Max","W","Scale","Breaks","Bins.min","Bins.max","Bins.w","Bins"
+"1",1,"ID","1","2","ID","ID",,"numeric","id",,,,,,,,,,,
+"2",2,"Varsta","48","72","Age (years)","Age (years)","Demographics","numeric","numeric",,,20,100,10,"lin","20;30;40;50;60;70;80;90;100",25,95,5,"25;30;35;40;45;50;55;60;65;70;75;80;85;90;95"
+"3",3,"Sex","F","F","Sex","Sex","Demographics","text","binary","F;M","F;M",,,,,,,,,
+"4",4,"Inaltime(cm)","160","165","Height (cm)","Height (cm)","Demographics","numeric","numeric",,,60,210,30,"lin","60;90;120;150;180;210",70,200,10,"70;80;90;100;110;120;130;140;150;160;170;180;190;200"
+"5",5,"Greutate(kg)","50","82","Weight (kg)","Weight (kg)","Demographics","numeric","numeric",,,30,180,30,"lin","30;60;90;120;150;180",40,180,10,"40;50;60;70;80;90;100;110;120;130;140;150;160;170;180"
+"6",6,"Durata debut-prezentare UPU","55","150","Time onset - presentation (hours)","Time onset - presentation (hours)","Durations","numeric","numeric",,,-1,4,1,"lin","-1;0;1;2;3;4",-0.25,4,0.25,"-0.25;0;0.25;0.5;0.75;1;1.25;1.5;1.75;2;2.25;2.5;2.75;3;3.25;3.5;3.75;4"
+"7",7,"Durata debut- examen CT cerebral","90","194","Time onset - cerebral CT (hours)","Time onset - cerebral CT (hours)","Durations","numeric","numeric",,,0,5,1,"lin","0;1;2;3;4;5",0,4.5,0.25,"0;0.25;0.5;0.75;1;1.25;1.5;1.75;2;2.25;2.5;2.75;3;3.25;3.5;3.75;4;4.25;4.5"
+"8",8,"Durata debut-rezultat analize","100","235","Time onset - analyses results (hours)","Time onset - analyses results (hours)","Durations","numeric","numeric",,,0,5,1,"lin","0;1;2;3;4;5",0,5,0.5,"0;0.5;1;1.5;2;2.5;3;3.5;4;4.5;5"
+"9",9,"Durata debut-initierea tratamentului","135","235","Time onset - treatment start (hours)","Time onset - treatment start (hours)","Durations","numeric","numeric",,,0,5,1,"lin","0;1;2;3;4;5",0,4.5,0.5,"0;0.5;1;1.5;2;2.5;3;3.5;4;4.5"
+"10",10,"Durata prezentare UPU - initiere tratament","80","85","Time presentation - treatment start (hours)","Time presentation - treatment start (hours)","Durations","numeric","numeric",,,0,4,1,"lin","0;1;2;3;4",0,3.5,0.25,"0;0.25;0.5;0.75;1;1.25;1.5;1.75;2;2.25;2.5;2.75;3;3.25;3.5"
+"11",11,"Interval lung prezentare UPU - initiere tratamet din alte motive","0","0","Long interval: presentation - treatment start (other reasons)","Long interval: presentation - treatment start (other reasons)","Durations special","text","danu","1;0","yes;no",,,,,,,,,
+"12",12,"Scor NIHSS la internare","16","14","NIHSS score at admission","NIHSS score at admission","NIHSS","numeric","numeric",,,0,40,10,"lin","0;10;20;30;40",0,32.5,2.5,"0;2.5;5;7.5;10;12.5;15;17.5;20;22.5;25;27.5;30;32.5"
+"13",13,"AVC actual in teritoriul vascular","1","2","Vasculary teritory of the current stroke","Vasculary teritory of the current stroke","Stroke","text","factor","1;2;3","1;2;3",,,,,,,,,
+"14",14,"TA sistolica prezentare","120","190","SBP at presentation (mmHg)","SBP at presentation (mmHg)","BP","numeric","numeric",,,0,300,50,"lin","0;50;100;150;200;250;300",0,275,25,"0;25;50;75;100;125;150;175;200;225;250;275"
+"15",15,"TA diastolica prezentare","70","120","DBP at presentation (mmHg)","DBP at presentation (mmHg)","BP","numeric","numeric",,,0,180,30,"lin","0;30;60;90;120;150;180",0,160,10,"0;10;20;30;40;50;60;70;80;90;100;110;120;130;140;150;160"
+"16",16,"NIHSS la 1 ora*","7","14","NIHSS score at 1 hour","NIHSS score at 1 hour","NIHSS","numeric","numeric",,,0,40,10,"lin","0;10;20;30;40",0,40,2.5,"0;2.5;5;7.5;10;12.5;15;17.5;20;22.5;25;27.5;30;32.5;35;37.5;40"
+"17",17,"NIHSS la 2 ore*","7","13","NIHSS score at 2 hours","NIHSS score at 2 hours","NIHSS","numeric","numeric",,,0,50,10,"lin","0;10;20;30;40;50",0,50,5,"0;5;10;15;20;25;30;35;40;45;50"
+"18",18,"NIHSS la 24 de ore*","12","9","NIHSS score at 24 hours","NIHSS score at 24 hours","NIHSS","numeric","numeric",,,0,50,10,"lin","0;10;20;30;40;50",0,50,5,"0;5;10;15;20;25;30;35;40;45;50"
+"19",19,"NIHSS la 7 zile*","6","9","NIHSS score at 7 days","NIHSS score at 7 days","NIHSS","numeric","numeric",,,0,30,5,"lin","0;5;10;15;20;25;30",0,30,2.5,"0;2.5;5;7.5;10;12.5;15;17.5;20;22.5;25;27.5;30"
+"20",20,"Scor Rankin la externare","5","4","Rankin score at discharge","Rankin score at discharge","Rankin","numeric","numeric",,,1,7,1,"lin","1;2;3;4;5;6;7",1,7,0.5,"1;1.5;2;2.5;3;3.5;4;4.5;5;5.5;6;6.5;7"
+"21",21,"* de la initierea tratamentului fibrinolitic",,,"* de la initierea tratamentului fibrinolitic","* de la initierea tratamentului fibrinolitic",,"text","exclude",,,,,,,,,,,
+"22",22,"Transformare hemoragica","2","1","Hemorrhagic transformation","Hemorrhagic transformation","Hemorrhagic transformation","text","danu","1;2","yes;no",,,,,,,,,
+"23",23,"Tip transformare hemoragica",,"1","Hemorrhagic transformation type","Hemorrhagic transformation type","Hemorrhagic transformation","text","factor","1;2;3;4","1;2;3;4",,,,,,,,,
+"24",24,"Simptomatica","0","2","Symptoms","Symptoms","Symptoms","text","factor","0;1;2","0;1;2",,,,,,,,,
+"25",25,"Hemoragie extracerebrala semnificativa",,"2","Significant extracerebral hemorrhage","Significant extracerebral hemorrhage","Hemorrhagic transformation","text","danu","1;2","yes;no",,,,,,,,,
+"26",26,"AVC repetat",,"2","Repeated strokes","Repeated strokes","Stroke","text","danu","1;2","yes;no",,,,,,,,,
+"27",27,"Crize epileptice",,"2","Seizures","Seizures","Symptoms","text","danu","1;2","yes;no",,,,,,,,,
+"28",28,"Deces pe parcursul internarii","2","2","Deceased while in hospital","Deceased while in hospital","Death","text","danu","1;2","yes;no",,,,,,,,,
+"29",29,"Momentul decesului",,,"Time of death","Time of death (in hospital)","Death","text","factor","2;3;4","2;3;4",,,,,,,,,
+"30",30,"Cauza deces",,,"Cause of death","Cause of death (in hospital)","Death","text","factor","1;3;4;6;7;8","1;3;4;6;7;8",,,,,,,,,
+"31",31,"Scor ASPECT la internare","8","7","ASPECT score at admission","ASPECT score at admission","ASPECT","numeric","numeric",,,5,10,1,"lin","5;6;7;8;9;10",5,10,0.5,"5;5.5;6;6.5;7;7.5;8;8.5;9;9.5;10"
+"32",32,"Scor ASPECT la 24 h","6","5","ASPECT score at 24 hours","ASPECT score at 24 hours","ASPECT","numeric","numeric",,,0,10,2.5,"lin","0;2.5;5;7.5;10",1,10,1,"1;2;3;4;5;6;7;8;9;10"
+"33",33,"Scor Rankin la 3 luni","2","4","Rankin score at 3 months","Rankin score at 3 months","Rankin","numeric","numeric",,,1,7,1,"lin","1;2;3;4;5;6;7",1,7,0.5,"1;1.5;2;2.5;3;3.5;4;4.5;5;5.5;6;6.5;7"
+"34",34,"Scor Rankin la 3 luni","2","4","Rankin score at 3 months (deceased)","Rankin score at 3 months (deceased)","Rankin special","text","factor","deces dupa externare;deces intraspitalicesc;nu","deceased after discharge;deceased in hospital;no",,,,,,,,,
+"35",35,"Index Barthel la 3 luni","20","12","Barthel Index score at 3 months","Barthel Index score at 3 months","Barthel","numeric","numeric",,,0,20,5,"lin","0;5;10;15;20",0,20,5,"0;5;10;15;20"
+"36",36,"Index Barthel la 3 luni","20","12","Barthel Index score at 3 months (deceased)","Barthel Index score at 3 months (deceased)","Barthel special","text","factor","deces dupa externare;deces intraspitalicesc;deces la externare;nu","deceased after discharge;deceased in hospital;deceased in hospital;no",,,,,,,,,
+"37",37,"AVC repetat2","2","2","Repeated strokes2","Repeated strokes (after treatment)","Stroke","text","factor","1;2;deces dupa externare;deces intraspitalicesc","1;2;deceased after discharge;deceased in hospital",,,,,,,,,
+"38",38,"Tip",,,"*Tip","Type of death (in hospital)","Other","text","factor","1;2;3;deces dupa externare;deces intraspitalicesc","1;2;3;deceased after discharge;deceased in hospital",,,,,,,,,
+"39",39,"Deces dupa externare","2","2","Deceased after discharge","Deceased after discharge","Death","text","factor","1;2;9;deces dupa externare;deces intraspitalicesc","1;2;9;deceased after discharge;deceased in hospital",,,,,,,,,
+"40",40,"Cauza deces2",,,"Cause of death2","Cause of death (after discharge)","Death","text","factor","1;2;3;4;5;6;7;8;9;deces;deces dupa externare","1;2;3;4;5;6;7;8;9;deceased after discharge;deceased in hospital",,,,,,,,,
+"41",41,"Varsta",,,"Age groups","Age groups","Age special","text","ordered","≤40;41-59;≥60",,,,,,,,,,
+"42",42,"no_censor",,,"no_censor","no_censor","special","text","danu","1;0","yes;no",,,,,,,,,
+"43",43,,,,"Column1","Column1","Column1","numeric","numeric",,,0,20,5,"lin","0;5;10;15;20",0,20,2.5,"0;2.5;5;7.5;10;12.5;15;17.5;20"

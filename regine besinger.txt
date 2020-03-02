@@ -1,0 +1,28 @@
+The numbers for the hemorrhagic transformation mean: 1 = yes, 2 = no hemorrhagic transformation.
+All the times (durations) are stated in minutes.
+These are the statistics I would like to have:
+
+ 1. Distribution of age (<=40, 41-59, >=60)
+ 2. Distribution of sex
+ 
+ 3. Medium duration: onset of symptom onset until presentation to Emergency department
+ 4. Medium duration: onset - cerebral CT
+ 5. Medium duration: onset – blood analysis
+ 6. Medium duration: onset – thrombolytic administration
+ 7. Medium duration: emergency presentation – treatment initiation
+ 
+ 8. Correlation between medium duration of onset of symptoms until thrombolytic administration and NIHSS score at 1 hour
+ 9. Correlation between medium duration of onset of symptoms until thrombolytic administration and NIHSS score at 2 hours
+10. Correlation between medium duration of onset of symptoms until thrombolytic administration and NIHSS score at 7 days
+11. Correlation between medium duration of onset of symptoms until thrombolytic administration and Rankin score at 3 months
+12. Correlation between medium duration of onset of symptoms until thrombolytic administration and Barthel index at 3 months
+13. Correlation between medium duration of onset of symptoms until thrombolytic administration and rate of hemorrhagic transformation
+ 
+14. Correlation between medium duration of onset of symptoms until the treatment and Rankin score at 3 months, in the different age groups
+15. Correlation between medium duration of onset of symptoms until treatment and Barthel index at 3 months, in the different age groups
+ 
+
+If you have any question, do not hesitate to contact me. My number: 0732925874.
+Thank you in advance! 
+
+Barthel Index score at 3 months = 100 (ID=319)
