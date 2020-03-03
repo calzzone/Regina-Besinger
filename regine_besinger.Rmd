@@ -3,15 +3,6 @@ title: "Graduation Thesis"
 subtitle: "Graduation Thesis"
 author: "Regine Besinger"
 output:
-  html_document:
-    df_print: kable
-    fig_caption: yes
-    fontface: Arial
-    fontsize: 11pt
-    number_sections: yes
-    toc: yes
-    toc_depth: 4
-    toc_float: no
   word_document:
     fig_caption: yes
     fig_height: 5
@@ -19,6 +10,16 @@ output:
     keep_md: no
     toc: yes
     reference_docx: word_template.docx
+  html_document: 
+    df_print: kable
+    fig_caption: yes
+    fontface: Arial
+    fontsize: 11pt
+    keep_md: yes
+    number_sections: yes
+    toc: yes
+    toc_depth: 4
+    toc_float: no
 ---
 
 https://rpubs.com/alex_istrate/wm73mh1qivcswbhoi9i0kk53
@@ -106,7 +107,7 @@ source(paste0(base_path, 'R library/mytheme.R'), echo=F)
 source(paste0(base_path, 'R library/assorted bits.R'), echo=F)
 source(paste0(base_path, 'R library/custom_charts.R'), echo=F)
 
-setwd(paste0(base_path, "Regina Besinger"))
+setwd(paste0(base_path, "2020/Regina Besinger"))
 ```
 
 
@@ -208,7 +209,7 @@ cat("\n\n")
 
 ### Durations
 
-`r paste0(descriptives_text(baza_de_date, numerice = my.groups$Durations, sex = NA), collapse='\n\n') `
+<!-- `r paste0(descriptives_text(baza_de_date, numerice = my.groups$Durations, sex = NA), collapse='\n\n') ` -->
 
 It took up to 4 hours after clinical onset for patients to present to the emergency unit, with a median of 1.6 hours. Then, it further took up to 3.5 hours to initiate fibrinolytic treatment (median=1 hour), for a total of up to 4.5 hours between onset to treatment (median=2.8 hours). 
 
@@ -611,7 +612,14 @@ for (var in c(my.groups$Durations) ) {
 ```
 
 ```{r echo=F, fig.height=6, fig.width=5, message=F, warning=F, dpi=144, results="asis", include=T}
-multicor(baza_de_date, y = my.groups$Durations, x=c(my.groups$NIHSS,my.groups$Rankin, my.groups$Barthel, my.groups$ASPECT), metadata = metadata, wrap.x = 30, wrap.y = 15, limits = c(-0.5, 0.5))
+mc <- multicor(baza_de_date, y = my.groups$Durations, x=c(my.groups$NIHSS,my.groups$Rankin, my.groups$Barthel, my.groups$ASPECT), metadata = metadata, wrap.x = 30, wrap.y = 15, limits = c(-0.5, 0.5))
+
+mc$p
+```
+
+```{r echo=F, fig.height=6, fig.width=5, message=F, warning=F, dpi=144, results="asis", include=T}
+
+mc$t
 ```
 
 ```{r echo=F, fig.height=3, fig.width=5, message=F, warning=F, dpi=144, results="asis", include=T}
